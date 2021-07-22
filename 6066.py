@@ -1,0 +1,7 @@
+li=[]
+li=map(int,input().split())
+for i in li:
+    if i%2==0:
+        print("even")
+    else:
+        print("odd")
